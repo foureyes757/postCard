@@ -13,6 +13,8 @@
 		A4607A4A1A16BD0F00271654 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4607A491A16BD0F00271654 /* Images.xcassets */; };
 		A4607A4D1A16BD0F00271654 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4607A4B1A16BD0F00271654 /* LaunchScreen.xib */; };
 		A4607A591A16BD0F00271654 /* PostCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4607A581A16BD0F00271654 /* PostCardTests.swift */; };
+		A4607A631A16C19E00271654 /* IMG_2141.JPG in Resources */ = {isa = PBXBuildFile; fileRef = A4607A621A16C19E00271654 /* IMG_2141.JPG */; };
+		A4607A651A16C63700271654 /* IMG_2163.JPG in Resources */ = {isa = PBXBuildFile; fileRef = A4607A641A16C63700271654 /* IMG_2163.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		A4607A521A16BD0F00271654 /* PostCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4607A571A16BD0F00271654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4607A581A16BD0F00271654 /* PostCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardTests.swift; sourceTree = "<group>"; };
+		A4607A621A16C19E00271654 /* IMG_2141.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2141.JPG; sourceTree = "<group>"; };
+		A4607A641A16C63700271654 /* IMG_2163.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2163.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		A4607A401A16BD0F00271654 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A4607A641A16C63700271654 /* IMG_2163.JPG */,
+				A4607A621A16C19E00271654 /* IMG_2141.JPG */,
 				A4607A411A16BD0F00271654 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,7 +200,9 @@
 			files = (
 				A4607A481A16BD0F00271654 /* Main.storyboard in Resources */,
 				A4607A4D1A16BD0F00271654 /* LaunchScreen.xib in Resources */,
+				A4607A651A16C63700271654 /* IMG_2163.JPG in Resources */,
 				A4607A4A1A16BD0F00271654 /* Images.xcassets in Resources */,
+				A4607A631A16C19E00271654 /* IMG_2141.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
