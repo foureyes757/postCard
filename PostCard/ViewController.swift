@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var enterMessageTextField: UITextField!
     @IBOutlet weak var enterNameTextField: UITextField!
     @IBOutlet weak var messageLabel: UILabel!
@@ -25,11 +26,20 @@ class ViewController: UIViewController {
 
     @IBAction func sendEmailButtonPRrssed(sender: AnyObject) {
         messageLabel.hidden=false
-        messageLabel.text=enterMessageTextField.text
-        enterMessageTextField.text=""
-        enterMessageTextField.resignFirstResponder()
+        messageLabel.text=enterNameTextField.text
+        enterNameTextField.text=""
+        enterNameTextField.resignFirstResponder()
         
         messageLabel.textColor=UIColor.redColor()
+        
+        
+        
+        nameLabel.hidden=false
+        nameLabel.text=enterMessageTextField.text
+        nameLabel.textColor=UIColor.blueColor()
+        enterMessageTextField.resignFirstResponder()
+        enterMessageTextField.text=""
+        
     }
 
 }
